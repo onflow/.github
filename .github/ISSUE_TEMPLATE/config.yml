@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Discord
-    url: https://discord.gg/flow
-    about: FlowOrg Discord server 
+    url: https://onflow.org/discord
+  - name: Github Discussions
+    url: https://github.com/orgs/onflow/discussions
+  - name: Flow Forums
+    url: https://forum.onflow.org
