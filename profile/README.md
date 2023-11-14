@@ -42,6 +42,8 @@ Choose your path:
 - [I want to contribute to Cadence](https://github.com/onflow/cadence/blob/master/CONTRIBUTING.md)
 
 - [I want to run a node](https://developers.flow.com/references/run-and-secure/node-operation)
+  
+- [I want to join the conversation on Github](https://github.com/orgs/onflow/discussions) (on [Forum](https://forum.flow.com/))
 
 **Roadmap**
 
