@@ -1,60 +1,94 @@
+# 🌊 Flow Blockchain
+‍
+Flow is a fast, decentralized and permissionless blockchain that anyone can access, everyone can trust, and no-one can censor or block. Leverage Flow to create limitless Web3 apps for mainstream adoption.
 
-## 🌊 Flow Blockchain
-‍  
-‍Flow is a fast, decentralized, and developer-friendly blockchain, designed as the foundation for a new generation of games, apps, and the digital assets that power them. It is based on a unique, multi-role architecture, and designed to scale without sharding, allowing for massive improvements in speed and throughput while preserving a developer-friendly environment.
+Thanks to its unique, multi-role architecture, Flow is designed to horizontally scale without sharding, allowing for massive improvements in speed and throughput while preserving a developer-friendly environment, all whilst having some of the lowest transaction costs and environmental impact of any blockchain.
 
-Flow empowers developers to build thriving crypto- and crypto-enabled businesses. Applications on Flow can keep consumers in control of their own data; create new kinds of digital assets tradable on open markets accessible from anywhere in the world; and build open economies owned by the users that help make them valuable. 
+***
 
--------------------------------
+## Why Flow? 
 
-Our experience developing blockchain applications like CryptoKitties and the Dapper Smart Contract wallet has led us to incorporate a number of improvements to developer ergonomics directly into the protocol layer on Flow. Several are outlined below.
+- [Protocol level Account Abstraction](https://developers.flow.com/build/advanced-concepts/account-abstraction): Flow provides native support for key use cases that are enabled by Account Abstraction, empowering developers to deliver mainstream-ready user experiences like walletless onboarding.
+- [Account linking](https://developers.flow.com/build/advanced-concepts/account-linking): Flow’s native Account Abstraction also makes it possible to share ownership over accounts. This allows apps to offer seamless user onboarding while letting users maintain secure (and self-custodial) asset ownership.
+- [Multi-role architecture](https://flow.com/primer): Flow's node architecture allows the network to horizontally scale to serve billions of users without sharding or reducing the decentralization of consensus.
+- [Resource-oriented programming](https://flow.com/post/resources-programming-ownership): an improved security model as well as a better user and developer experience. Smart contracts on Flow are written in [Cadence](https://developers.flow.com/build/cadence), an easier and safer programming language specifically designed for digital assets and apps. Cadence has a familiar syntax and uses a strong, static type system to minimize runtime errors, and allows all methods, interfaces, and transactions to include pre- and post-conditions to enforce expected behavior. This has resulted in a language that is easier to learn, significantly easier to audit, and ultimately much more productive than any current alternatives. 
+- [Developer ergonomics](https://developers.flow.com/build/flow): Flow is designed to maximize developer productivity. Examples range from upgradeable smart contracts, native multi-sig support, and scripted transactions which allow a single transaction to interact with any number of smart contracts.
+- [Native on-chain randomness](https://flow.com/post/on-chain-randomness-on-flow): randomness is hard, and it’s even harder on-chain. Flow introduces a breakthrough ‘randomness beacon’ which generates an unbiased, unpredictable, and verifiable source of secure pseudo-randomness in a fully decentralized manner. This is essential for things like Gaming, DeFi and prediction markets without needing to rely on external Oracles. 
 
-### **Cadence**
+**Coming from other blockchains like Ethereum?** [**Check out our comparison guide**](https://developers.flow.com/build/building-vs-other-chain)
 
-[Cadence](https://github.com/onflow/cadence) is the first ergonomic, resource-oriented smart contract programming language. 
+## Get started on Flow
 
-While existing programming environments can be used to keep track of asset ownership, they are typically used in scenarios where they are _reflecting_ ownership rather than defining it directly. Public blockchains are unique in that they are explicitly designed to manage ownership of digital assets with scarcity and full access control. Digital assets on public blockchains behave like physical assets: they cannot be copied or counterfeited, only moved. 
- 
-‍[**Resource-oriented programming**](https://medium.com/dapperlabs/resource-oriented-programming-bee4d69c8f8e) is a new paradigm, designed to be secure and easy-to-use. For the first time, developers can create uniquely durable digital artifacts where ownership is tracked by the language itself, enabling a powerful new category of applications.
+Choose your path:
 
-As the first high-level resource-oriented programming language, Cadence has a comfortable, ergonomic syntax making it very easy to read. It uses a strong, static type system to minimize runtime errors, and allows all methods, interfaces, and transactions to include pre- and post-conditions to enforce expected behaviour. This has resulted in a language that is easier to learn, significantly easier to audit, and ultimately much more productive than any current alternatives. You can start learning Cadence on Flow Playground: [play.onflow.org](https://play.onflow.org/)
+**Build on Flow**
 
-### Open source tooling
+- \[Hello World] [I want to start with a Hello World on Flow](https://developers.flow.com/build/getting-started/quickstarts/hello-world)
 
-The Flow team has open sourced a series of tools to help developers get started:
+- \[Quickstart] [I want to jump in and build a simple Dapp on Flow](https://developers.flow.com/guides/flow-app-quickstart)
 
-‍[**Flow Go SDK**](https://github.com/onflow/flow-go-sdk): the Go SDK is a great tool for developers looking for backend integration with scalability in mind. Go is one of the most popular backend programming languages when performance is a top priority, and has been the go-to choice for Dapper Labs.
+- \[Course] [I want to follow a course on how to build a Dapp on Flow](https://academy.ecdao.org/en/catalog/courses/beginner-dapp/chapter1/lesson1)
 
-‍[**Flow JavaScript SDK**](https://github.com/onflow/flow-js-sdk): for frontend developers, our JavaScript SDK will allow you to easily integrate and interact with Flow. Develop without using ABIs, construct composable interactions and create dapps that delight your users. We think you’re going to love building with our JavaScript SDK.
+**Learn how to write Smart Contracts with Cadence**
 
-‍[**Visual Studio Code Extension**](https://github.com/onflow/flow/blob/master/docs/vscode-extension.md): interact with Flow and use the Cadence language natively in Visual Studio Code. Statically check your Cadence code for errors and test your smart contracts without leaving the comfort of this industry-leading IDE.
+- \[Quickstart] [I want to learn Cadence by writing code on the Flow Playground](https://play.flow.com/)
 
-‍[**Flow Playground GUI**](https://github.com/onflow/flow-playground): the hosted, in-browser development environment where users can learn and try out Cadence smart contract language without any setup needed. We make it easy for any new developer to get a taste of Cadence, the powerful new language for smart contract development.
+- \[Course] [I want to learn Cadence by following a course](https://academy.ecdao.org/en/catalog/courses/beginner-cadence/chapter1/lesson2)
 
-‍**Standards Proposals:** [FTs (Fungible tokens)](https://github.com/onflow/flow-FT) and [NFTs (Non-fungible tokens)](https://github.com/onflow/flow-NFT) are the Flow equivalent of Ethereum’s ERC-20 and ERC-721 tokens, respectively.
+**Contributing**
 
-### Upgradable Smart Contracts
+- [I want to contribute to the Flow Protocol](https://github.com/onflow/flow-go/blob/master/CONTRIBUTING.md)
 
-On Flow, we allow smart contracts to be deployed to the mainnet in a “beta state”, where the code can be incrementally updated by the original authors. Users will be alerted to the unfinished nature of this code, and can choose to wait until the code is finalized before trusting it. Once authors are confident that their code is safe, they can irrevocably release their control on the contract, and it becomes perfectly immutable for the rest of time.
+- [I want to contribute to Cadence](https://github.com/onflow/cadence/blob/master/CONTRIBUTING.md)
 
-### Built-in Logging Support
+- [I want to run a node](https://developers.flow.com/references/run-and-secure/node-operation)
+  
+- [I want to join the conversation on Github](https://github.com/orgs/onflow/discussions) (on [Forum](https://forum.flow.com/))
 
-Flow recognizes that since all smart contract transactions are fully deterministic, there is no need to store the actual logs for every transaction inside the network. Instead, Flow simply marks which transactions would have produced log messages for which topics. If someone wants to “examine” the logs, they can query the blockchain for the subset of transactions tagged with a particular topic and then re-run the transactions locally to generate those logs for analysis. This technique also makes event logging dramatically more efficient.
+**Roadmap**
 
-## Consumer-Friendly Onboarding  
+- [I want to learn about Flow’s Roadmap](https://flow.com/flow-roadmap)
 
-In addition to mainstream-ready payment on-ramps (from other crypto tokens as well as fiat currencies), the Flow network makes it easy to build applications that people want to use:  
+**Bridging**
 
-### Human Readable Security  
+- [I want to learn how to bridge between Flow and Ethereum](https://flow.com/use-flow/bridges)
 
-On current networks, it’s nearly impossible for an app or wallet software to provide a human-readable message clearly outlining what permissions they’re giving when authorizing a transaction. The Flow transaction format makes very strong guarantees about what kinds of changes a transaction can and can not make. This makes it easy for the wallet to ensure users are making informed decisions about what they are approving. 
 
-It will be up to wallet software to display this information to the users, but by making the Flow transaction format easy to statically analyze, we create the possibility for a more transparent transaction approval process.
+# Resources
 
-### Smart User Accounts: no more seed words or lost keys  
+**Developer Resources**
 
-Flow is designed with flexibility in mind. Over the past year, Dapper Labs has pioneered a variety of usability enhancements to the Ethereum account model as part of the Dapper Smart Contract Wallet. Those enhancements are part of the native account model on Flow:  
+- [Developer Portal](https://developers.flow.com)
+- [Flow CLI](https://developers.flow.com/tools/flow-cli): The Flow CLI is Flow’s primary development and testing environment, similar to Hardhat and Foundry for developers familiar with writing in Solidity.
+- **Clients:**
+  - [Flow GO SDK](https://github.com/onflow/flow-go-sdk)
+  - [Flow Client Library](https://developers.flow.com/tools/clients/fcl-js) (JS, SWIFT, iOS, Python)
+  - [Flow SDK for Unity](https://developers.flow.com/tools/clients/unity-sdk)
 
-*   Optional, modular, smart contract functionality built into every Flow wallet
-*   This supports automated processes or more sophisticated authorization controls, in turn enabling good user experience. For example, dapps can easily make sure consumers never lose their assets – or access to their accounts – with secure account recovery flows
-*   Added security through optional multiple signature support, with the ability to cycle out old keys regularly to avoid security leaks
+
+- [**Wallets**](https://developers.flow.com/community-resources/wallets)**:** Flow has several wallets to choose from, including the Flow Reference Wallet that any developer can fork and extend to build their own.
+
+**Learn more about:**
+
+- [Roadmap](https://flow.com/flow-roadmap)
+- [Account Abstraction on Flow](https://flow.com/account-abstraction)
+- [Account linking](https://flow.com/account-linking)
+- [EVM on Flow](https://forum.flow.com/t/evm-on-flow-beyond-solidity/5260)
+- [Flow Reference Wallet](https://frw.gitbook.io/flow-reference-wallet/)
+- [Bridging](https://flow.com/use-flow/bridges)
+- [Comparison with other blockchains](https://developers.flow.com/build/building-vs-other-chain)
+
+**Community channels:**
+
+- [Discord](https://discord.gg/flow)
+- [Twitter](https://twitter.com/flow_blockchain)
+- [Telegram](https://t.me/flow_community)
+
+**Community:**
+
+- [Flowdiver](https://flowdiver.io): the Flow block explorer
+- [Flowverse](https://www.flowverse.co/): a community-run ecosystem portal
+- [Emerald City DAO](https://ecdao.org): a community of Flow builders
+- [Increment.fi](https://increment.fi): Swap, lend, stake and more 
+- [Flowty](https://flowty.io): NFT Lending and Renting
+- [Evaluate Market](https://evaluate.xyz): NFT Trading
