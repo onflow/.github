@@ -1,8 +1,8 @@
 # 🌊 Flow Blockchain
 ‍
-Flow is a decentralized platform that anyone can access, everyone can trust, and no-one can censor or block. Leverage a fast and permissionless layer 1 blockchain to create limitless Web3 apps for mainstream adoption. 
+Flow is a fast, decentralized and permissionless blockchain that anyone can access, everyone can trust, and no-one can censor or block. Leverage Flow to create limitless Web3 apps for mainstream adoption.
 
-Thanks to its unique, multi-role architecture, Flow is designed to scale without sharding, allowing for massive improvements in speed and throughput while preserving a developer-friendly environment, all whilst having some of the lowest transaction costs and environmental impact of any blockchain.
+Thanks to its unique, multi-role architecture, Flow is designed to horizontally scale without sharding, allowing for massive improvements in speed and throughput while preserving a developer-friendly environment, all whilst having some of the lowest transaction costs and environmental impact of any blockchain.
 
 ***
 
@@ -10,7 +10,7 @@ Thanks to its unique, multi-role architecture, Flow is designed to scale without
 
 - [Protocol level Account Abstraction](https://developers.flow.com/build/advanced-concepts/account-abstraction): Flow provides native support for key use cases that are enabled by Account Abstraction, empowering developers to deliver mainstream-ready user experiences like walletless onboarding.
 - [Account linking](https://developers.flow.com/build/advanced-concepts/account-linking): Flow’s native Account Abstraction also makes it possible to share ownership over accounts. This allows apps to offer seamless user onboarding while letting users maintain secure (and self-custodial) asset ownership.
-- [Multi-role architecture](https://flow.com/primer): Flow's node architecture allows the network to scale to serve billions of users without sharding or reducing the decentralization of consensus.
+- [Multi-role architecture](https://flow.com/primer): Flow's node architecture allows the network to horizontally scale to serve billions of users without sharding or reducing the decentralization of consensus.
 - [Resource-oriented programming](https://flow.com/post/resources-programming-ownership): an improved security model as well as a better user and developer experience. Smart contracts on Flow are written in [Cadence](https://developers.flow.com/build/cadence), an easier and safer programming language specifically designed for digital assets and apps. Cadence has a familiar syntax and uses a strong, static type system to minimize runtime errors, and allows all methods, interfaces, and transactions to include pre- and post-conditions to enforce expected behavior. This has resulted in a language that is easier to learn, significantly easier to audit, and ultimately much more productive than any current alternatives. 
 - [Developer ergonomics](https://developers.flow.com/build/flow): Flow is designed to maximize developer productivity. Examples range from upgradeable smart contracts, native multi-sig support, and scripted transactions which allow a single transaction to interact with any number of smart contracts.
 - [Native on-chain randomness](https://flow.com/post/on-chain-randomness-on-flow): randomness is hard, and it’s even harder on-chain. Flow introduces a breakthrough ‘randomness beacon’ which generates an unbiased, unpredictable, and verifiable source of secure pseudo-randomness in a fully decentralized manner. This is essential for things like Gaming, DeFi and prediction markets without needing to rely on external Oracles. 
@@ -21,7 +21,9 @@ Thanks to its unique, multi-role architecture, Flow is designed to scale without
 
 Choose your path:
 
-**Build a Dapp on Flow**
+**Build on Flow**
+
+- \[Hello World] [I want to start with a Hello World on Flow](https://developers.flow.com/build/getting-started/quickstarts/hello-world)
 
 - \[Quickstart] [I want to jump in and build a simple Dapp on Flow](https://developers.flow.com/guides/flow-app-quickstart)
 
@@ -87,3 +89,4 @@ Choose your path:
 - [Emerald City DAO](https://ecdao.org): a community of Flow builders
 - [Increment.fi](https://increment.fi): Swap, lend, stake and more 
 - [Flowty](https://flowty.io): NFT Lending and Renting
+- [Evaluate Market](https://evaluate.xyz): NFT Trading
