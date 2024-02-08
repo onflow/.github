@@ -76,7 +76,7 @@ Choose your path:
 - [EVM on Flow](https://forum.flow.com/t/evm-on-flow-beyond-solidity/5260)
 - [Flow Reference Wallet](https://frw.gitbook.io/flow-reference-wallet/)
 - [Bridging](https://flow.com/use-flow/bridges)
-- [Comparison with other blockchains](https://developers.flow.com/build/building-vs-other-chain)
+- [Comparison with other blockchains](https://developers.flow.com/build/differences-vs-evm)
 
 **Community channels:**
 
