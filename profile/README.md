@@ -92,3 +92,4 @@ Choose your path:
 - [Increment.fi](https://increment.fi): Swap, lend, stake and more 
 - [Flowty](https://flowty.io): NFT Lending and Renting
 - [Evaluate Market](https://evaluate.xyz): NFT Trading
+- [Shadow](https://shadow.app): NFT marketplace for pro traders
