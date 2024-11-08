@@ -81,7 +81,7 @@ Choose your path:
 **Community channels:**
 
 - [Discord](https://discord.com/invite/J6fFnh2xx6)
-- [Twitter](https://twitter.com/flow_blockchain)
+- [X (formerly Twitter)](https://x.com/flow_blockchain)
 - [Telegram](https://t.me/flow_community)
 
 **Community:**
